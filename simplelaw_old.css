@@ -1,0 +1,45 @@
+@font-face
+{
+	font-family: 'Elephant-Italic';
+	src: url(ELEPHNTI.TTF);
+}
+@font-face
+{
+	font-family: 'Elephant-Regular';
+	src: url(ELEPHNT.TTF);
+}
+body
+{
+	background-color: #feeabd;
+        zoom: 80%;
+        margin-top: 0;
+}
+h3
+{
+	border: 0px 0px;
+	font-family: Elephant-Italic;
+	font-size: 6em;
+        margin: 30px 30px;
+	padding: 0px 0px;
+	text-align: center;
+}
+h2
+{
+	border: 0px 0px;
+	font-family: Elephant-Regular
+	color:	#009FCF;
+	font-size: .75em;
+	margin: 0px 0px;
+	padding: 0px 0px;
+	text-align: center;
+}
+#headerBackground
+{
+	background-color: #009FCF;
+	border: 0px 0px 0px 0px;
+	height: 200px;
+	margin: 0px 0px 0px -10px;
+	padding: 0px 0px 0px 0px;
+	width: 100%;
+	z-index: -1;
+}
