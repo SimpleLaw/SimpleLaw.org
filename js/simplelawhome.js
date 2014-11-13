@@ -11,7 +11,7 @@ function beginHover(item){//hoverover: make the hovered state to blue, make the 
 	item.style.fill="#009FCF";
 	popup.style.visibility="visible";
 	document.getElementById("laws").innerHTML=lawsDefault;
-	document.getElementById("laws").style.visibility="hidden";
+	//document.getElementById("laws").style.visibility="hidden";
 	document.getElementById("stateName").innerHTML="<h3>"+item.id+"</h3>";
 	request = window.setTimeout(function(){
 		document.getElementById("loading").style="visibility:visible;";
@@ -31,9 +31,9 @@ function setRecentLaws(item){//get laws for state from api
 	document.getElementById("laws").style.visibility="visible";
 }
 function getLaws(name){//gets api response
-	var xhr = new XMLHttpRequest();
+	/*var xhr = new XMLHttpRequest();
 	xhr.open("GET", "http://simplelaw.org/api.php?stateName=CT", false);
 	xhr.send();
 	var billJSON=JSON.parse(xhr.responseText);
-	return [billJSON.bill.title,billJSON.bill.description,billJSON.bill.state_link];
+	return [billJSON.bill.title,billJSON.bill.description,billJSON.bill.state_link];*/
 }
